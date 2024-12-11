@@ -1,0 +1,91 @@
+body {
+    padding: 150px;
+    background-color: darkviolet;
+}
+
+
+button {
+    width: 200px;
+    border-radius: 30px;
+}
+
+.ai {
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ai img {
+    width: 100px;
+    height: 100px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* For screens smaller than 768px (mobile view) */
+@media (max-width: 768px) {
+    body {
+        padding: 50px;
+    }
+
+    .ai {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: large;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    p {
+        font-size: medium;
+    }
+}
+
+/* For screens larger than 768px (desktop view) */
+@media (min-width: 769px) {
+    body {
+        padding: 150px;
+    }
+
+    .ai {
+        width: 500px;
+    }
+
+    h1 {
+        font-size: xx-large;
+    }
+
+    button {
+        width: 200px;
+    }
+
+    input {
+        width: auto;
+    }
+
+    p {
+        font-size: large;
+    }
+}
